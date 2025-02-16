@@ -1,0 +1,331 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}.App {
+  text-align: center;
+  min-height: 110vh;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card-register{
+  background-color: white;
+  padding: 40px;
+  margin: 10px 40px;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: whitesmoke 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.register-area{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 130px;
+  margin: 20px 100px 0 100px;
+  align-items: center;
+  height: 500px;
+}
+.card-login{
+  background-color: white;
+  padding: 40px;
+  margin: 10px 40px;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: whitesmoke 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.login-area{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 130px;
+  margin: 20px 100px 0 100px;
+  align-items: center;
+  height: 500px;
+}
+.footer {
+  display: flex;
+  height: 80px;
+  background-color: #00ADB5;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  color: white;
+  font-weight: 600;
+}
+
+.custom-nav-light ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #393E46;
+  /* position:relative; */
+}
+
+nav.custom-nav-light li {
+  float: left;
+}
+
+nav.custom-nav-light li a {
+  display: block;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav.custom-nav-light li strong {
+  display: block;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.custom-nav-light li a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+nav.custom-nav-light li strong:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+container {
+  padding: 30px 50px;
+  min-height: 100vh;
+}
+.text-link {
+  display: flex;
+  justify-content: space-between;
+}
+.text-link p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.text-link a {
+  color: #58cedc;
+  text-decoration: underline;
+}
+
+.text-link a:hover {
+  text-decoration: underline;
+  color: #58cedc;
+}
+
+.container-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card {
+  border: 1px solid rgb(207, 207, 207);
+  /* border-radius: 30px; */
+  max-width: 250px;
+  background-color: beige;
+}
+
+.card-img {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s;
+}
+
+.card:hover .card-img img {
+  transform: scale(1.2);
+}
+
+.card-price {
+  margin-top: 5px;
+}
+
+.card-price span {
+  background-color: rgba(147, 214, 222, 0.2);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 10px;
+}
+
+.btn-detail {
+  border: none;
+  margin-top: 14px;
+  background-color: #58cedc;
+  letter-spacing: 1px;
+  width: 60%;
+  font-size: 12px;
+}
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-right: 10%;
+  padding-left: 10%; */
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+}
+.image-1 img {
+  max-width: 300px;
+  height: 430px;
+  border-radius: 15px 15px 15px 15px;
+}
+ .image-1 {
+  flex-basis: 40%;
+  margin-right:30px;
+
+}
+.text-1 {
+  font-size: 20px;
+  /* padding-left: 20px; */
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.judul {
+  font-size: 30px;
+  /* padding-left: 20px; */
+  /* text-align: center; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-1 p{
+  margin-bottom: 4px;
+}
+.text-1 button{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.preview-list{
+  margin: 10px auto ;
+  background-color: #61dafb;
+  border-radius: 15px 15px 15px 15px;
+  height: 70px;
+  width: 60px;
+}
+
+.preview-list img{
+  object-fit: cover;
+  height: 70px;
+  width: 60px;
+  border-radius: 15px 15px 15px 15px;
+  object-fit: cover;
+}
+
+.table-area{
+  /* margin-bottom: 90px; */
+  height: 1380px;
+  padding: 10px;
+  /* background-color: red; */
+}
+
+table.custom-table {
+  /* border-collapse: collapse; */
+  width: 80%;
+  /* display: block;
+  background-color: #61dafb; */
+    /* margin: auto; */
+  right:0;
+  /* padding-bottom: 50px; */
+  position: absolute; 
+  margin: 0 40px 0 0;
+  /* border-radius:3px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
+
+.custom-table th, td {
+  text-align: center;
+  /* border: 1px solid; */
+  padding: 20px 10px 20px 10px;
+  
+}
+
+/* custom-table form games */
+
+.custom-table tr:nth-child(even){background-color: #f2f2f2}
+
+.custom-table th {
+  background-color: #06283D;
+  color: white;
+  text-align: center;
+  
+  /* border-top-left-radius: 7px;
+  border-top-right-radius: 7px; */
+
+}
+.custom-table td{
+  text-align: center;
+}
+
+.custom-table tbody{
+  color: #100720;
+  font-weight: 500;
+
+}
+
+.custom-table tr, td,input {
+  padding-top: 30px;
+  text-align: left;
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+}
+
+.wrap-1{
+  align-items: center;
+  justify-content: center;
+  margin: 40px 300px 40px 300px;
+  border-color: red;
+  border: 1px solid rgb(152, 149, 149);
+  border-radius: 20px;
+  box-shadow: whitesmoke 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
